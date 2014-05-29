@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D2D96552FF8446B5A41CB697 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9019BBA6D46042B69529B9D7 /* libPods.a */; };
+		F0F5751B19378A3B00DB507B /* PCFirstTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F5751A19378A3B00DB507B /* PCFirstTableViewDataSource.m */; };
 		F0F96F8A19374E76003E48E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F96F8919374E76003E48E0 /* Foundation.framework */; };
 		F0F96F8C19374E76003E48E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F96F8B19374E76003E48E0 /* CoreGraphics.framework */; };
 		F0F96F8E19374E76003E48E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F96F8D19374E76003E48E0 /* UIKit.framework */; };
@@ -38,6 +39,8 @@
 /* Begin PBXFileReference section */
 		76C5EA91A6F7497387D688B8 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		9019BBA6D46042B69529B9D7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F5751919378A3B00DB507B /* PCFirstTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCFirstTableViewDataSource.h; sourceTree = "<group>"; };
+		F0F5751A19378A3B00DB507B /* PCFirstTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCFirstTableViewDataSource.m; sourceTree = "<group>"; };
 		F0F96F8619374E76003E48E0 /* TestTapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F96F8919374E76003E48E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F0F96F8B19374E76003E48E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -130,6 +133,8 @@
 				F0F96FA219374E76003E48E0 /* PCSecondViewController.m */,
 				F0F96FA419374E76003E48E0 /* Images.xcassets */,
 				F0F96F9019374E76003E48E0 /* Supporting Files */,
+				F0F5751919378A3B00DB507B /* PCFirstTableViewDataSource.h */,
+				F0F5751A19378A3B00DB507B /* PCFirstTableViewDataSource.m */,
 			);
 			path = TestTapApp;
 			sourceTree = "<group>";
@@ -298,6 +303,7 @@
 			files = (
 				F0F96F9619374E76003E48E0 /* main.m in Sources */,
 				F0F96FA319374E76003E48E0 /* PCSecondViewController.m in Sources */,
+				F0F5751B19378A3B00DB507B /* PCFirstTableViewDataSource.m in Sources */,
 				F0F96F9A19374E76003E48E0 /* PCAppDelegate.m in Sources */,
 				F0F96FA019374E76003E48E0 /* PCFirstViewController.m in Sources */,
 			);

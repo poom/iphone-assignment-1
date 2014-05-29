@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PCFirstTableViewDataSource.h"
 
-@interface PCFirstViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface PCFirstViewController : UIViewController <UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+
+@property (strong, nonatomic) PCFirstTableViewDataSource *tableViewDataSource;
 
 @end
